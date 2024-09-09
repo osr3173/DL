@@ -36,7 +36,7 @@ context = '''
 def ask_gpt(question):
     response = openai.ChatCompletion.create(
         # 모델 설정
-        model = 'gpt-4',  # 정확한 모델명을 입력해야 합니다.
+        model = 'gpt-4o-mini',  # 정확한 모델명을 입력해야 합니다.
         messages = [
             {
                 # role: system = gpt가 갖춰야 할 규칙
